@@ -25,3 +25,10 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.topbar {
+  @apply fixed top-0 z-30 flex w-full items-center justify-between  px-6 py-3;
+}
+
+.custom {
+  background-image: linear-gradient(to bottom right, #945b6f,#8a8187,#a39f9f);
+}
